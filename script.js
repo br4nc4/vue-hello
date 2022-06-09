@@ -4,6 +4,7 @@ const app = new Vue({
     data:{
         testoH1: "Hello World",
         example: "d-none",
+        image: "world.jpg",
     },
 
     methods:{
