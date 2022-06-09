@@ -9,10 +9,12 @@ const app = new Vue({
 
     methods:{
         render: function(){
-            if(this.example){
-                console.log("la varibaile example è d-none");
-                //this.example = "d-block";
-            } 
+            if(this.example == "d-none"){
+                this.example = "d-block";
+            } else if (this.example == "d-block") {
+                this.example = "d-none";
+            }
         }
     }
 })
+
