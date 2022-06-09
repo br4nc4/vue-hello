@@ -16,7 +16,10 @@
 
                 <h1 class="display-1" v-text="testoH1" v-bind:class="example"></h1>
 
-                <img v-bind:src="image" alt="">
+                <div class="d-flex justify-content-center">
+                    <img :class="example" v-bind:src="image" alt="">
+                </div>
+                
             </div>
         </div>
     </main>
