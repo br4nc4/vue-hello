@@ -12,10 +12,14 @@
     <main>
         <div id="app">
             <div class="container text-center">
+                <!-- button che al click farà comparire il
+                titolo e l'immagine-->
                 <button class="btn btn-primary" @click="render">Click Me!</button>
 
+                <!-- titolo -->
                 <h1 class="display-1" v-text="testoH1" v-bind:class="example"></h1>
 
+                <!-- immagine -->
                 <div class="d-flex justify-content-center">
                     <img :class="example" v-bind:src="image" alt="">
                 </div>
